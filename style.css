@@ -1,0 +1,111 @@
+/* This is a single-line comment */
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+
+body{
+font-family: "Raleway", sans-serif;
+  background-color:white;
+  line-height:1.5
+}
+h1{
+  text-align: center;
+  font-size: 35px;
+  color:#ff3399;
+  margin-top:30px;
+
+}
+hr{
+  margin-left:350px;
+   margin-right:350px;
+     color:#ff3399;
+      border: 5px solid #ff3399;
+}
+html{overflow-x:hidden}
+
+.carol-display-container{position:relative;}
+.carol-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.carol-xlarge{font-size:24px!important;color:#ff3399;}.carol-xxlarge{font-size:36px!important}.carol-xxxlarge{font-size:48px!important;color:white;}.carol-jumbo{font-size:64px!important}
+.carol-opacity{opacity:0.80;}
+.carol-content,.carol-auto{margin-left:auto;margin-right:auto}.carol-content{max-width:980px}.carol-auto{max-width:1140px}
+.carol-container,.carol-panel{padding:0.01em 16px}
+.carol-padding-64{padding-top:64px!important;padding-bottom:64px!important}
+
+.carol-responsive{display:block;overflow-x:auto}
+
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("background_2.png");
+  min-height: 500px;}
+
+.verde{
+  color:#ff66cc;
+  font-weight: bold;
+}
+.rosa{
+  color:#00ff00;
+    font-weight: bold;
+}
+
+.rosa2{
+  color:#0052cc;
+      font-weight: bold;
+
+}
+
+.azul{
+  color:#002699;
+  font-weight: bold;
+}
+header{
+  width: 100%;
+  height: 400px;
+background-image: url('background_2.png');
+  background-size: 100% 100%;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+footer {
+  background-color:#D8D8D8;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.a{
+    text-align: center;
+    color: white;
+font-family: 'Bungee', cursive;
+     font-size: 20px;
+       background-color:#ff3399;
+       margin-top:30px;
+       padding:70px;
+
+}
+.conteudo{
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:16px!important;
+  max-width:980px;
+  padding:12px 24px!important;
+
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+   
+}
+
+.col-4 {
+  width: 33.33%;
+  float: left;
+  padding: 15px;
+}
+
+
